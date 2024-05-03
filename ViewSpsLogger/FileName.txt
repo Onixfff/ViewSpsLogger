@@ -1,4 +1,3 @@
-full
 
 -- CREATE INDEX idx_timestamp ON autoclave1 (Timestamp);
 -- CREATE INDEX idx_data_461 ON autoclave1 (Data_461);
