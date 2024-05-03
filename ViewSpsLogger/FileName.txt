@@ -44,4 +44,6 @@ SQL Statement:
 ALTER TABLE `spslogger`.`autoclave1` 
 ADD INDEX `idx_data_461_on_autoclave1` (`Data_461` ASC) VISIBLE
 
+ALTER TABLE `spslogger`.`autoclave1` 
+CHANGE COLUMN `Timestamp` `Timestamp` TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:01';
 
