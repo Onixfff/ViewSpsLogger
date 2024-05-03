@@ -25,3 +25,6 @@ CREATE INDEX idx_data_34_data_36_on_autoclave4 ON autoclave4 (Data_34, Data_36);
 CREATE INDEX idx_data_92 ON autoclave2 (Data_92);
 CREATE INDEX idx_timestamp ON autoclave2 (Timestamp);
 CREATE INDEX idx_data_55_data_60 ON autoclave2 (Data_55, Data_60);
+
+
+17:12:40	CREATE INDEX idx_data_92 ON autoclave2 (Data_92)	Error Code: 1067. Invalid default value for 'Timestamp'	0.000 sec
