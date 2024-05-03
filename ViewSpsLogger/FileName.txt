@@ -32,3 +32,16 @@ idx_timestamp_on_autoclave1
 idx_data_443_data_445_on_autoclave1
 idx_timestamp
 idx_data_461
+
+Operation failed: There was an error while applying the SQL script to the database.
+Executing:
+ALTER TABLE `spslogger`.`autoclave1` 
+ADD INDEX `idx_data_461_on_autoclave1` (`Data_461` ASC) VISIBLE;
+;
+
+ERROR 1067: Invalid default value for 'Timestamp'
+SQL Statement:
+ALTER TABLE `spslogger`.`autoclave1` 
+ADD INDEX `idx_data_461_on_autoclave1` (`Data_461` ASC) VISIBLE
+
+
