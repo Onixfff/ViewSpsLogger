@@ -6,9 +6,15 @@ full
 -- CREATE INDEX idx_data_93 ON autoclave3 (Data_93);
 -- CREATE INDEX idx_data_52 ON autoclave4 (Data_52);
 
+-- Для таблицы autoclave1
 CREATE INDEX idx_data_92_on_autoclave1 ON autoclave1 (Data_92);
 CREATE INDEX idx_timestamp_on_autoclave1 ON autoclave1 (Timestamp);
 CREATE INDEX idx_data_55_data_60_on_autoclave1 ON autoclave1 (Data_55, Data_60);
+
+-- Для таблицы autoclave2
+CREATE INDEX idx_data_92 ON autoclave2 (Data_92);
+CREATE INDEX idx_timestamp ON autoclave2 (Timestamp);
+CREATE INDEX idx_data_55_data_60 ON autoclave2 (Data_55, Data_60);
 
 -- Для таблицы autoclave3
 CREATE INDEX idx_data_92_on_autoclave3 ON autoclave3 (Data_92);
