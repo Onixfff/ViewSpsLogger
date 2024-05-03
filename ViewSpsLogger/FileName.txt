@@ -6,22 +6,22 @@ full
 -- CREATE INDEX idx_data_93 ON autoclave3 (Data_93);
 -- CREATE INDEX idx_data_52 ON autoclave4 (Data_52);
 
--- Для таблицы autoclave1
-CREATE INDEX idx_data_92_on_autoclave1 ON autoclave1 (Data_92);
+-- Индексы для autoclave1 (пример, как могли бы выглядеть команды, если бы таблица autoclave1 имела аналогичные столбцы, что и autoclave2)
+CREATE INDEX idx_data_461_on_autoclave1 ON autoclave1 (Data_461);
 CREATE INDEX idx_timestamp_on_autoclave1 ON autoclave1 (Timestamp);
-CREATE INDEX idx_data_55_data_60_on_autoclave1 ON autoclave1 (Data_55, Data_60);
+CREATE INDEX idx_data_443_data_445_on_autoclave1 ON autoclave1 (Data_443, Data_445);
+
+-- Индексы для autoclave3
+CREATE INDEX idx_data_93_on_autoclave3 ON autoclave3 (Data_93);
+CREATE INDEX idx_timestamp_on_autoclave3 ON autoclave3 (Timestamp);
+CREATE INDEX idx_data_57_data_61_on_autoclave3 ON autoclave3 (Data_57, Data_61);
+
+-- Индексы для autoclave4
+CREATE INDEX idx_data_52_on_autoclave4 ON autoclave4 (Data_52);
+CREATE INDEX idx_timestamp_on_autoclave4 ON autoclave4 (Timestamp);
+CREATE INDEX idx_data_34_data_36_on_autoclave4 ON autoclave4 (Data_34, Data_36);
 
 -- Для таблицы autoclave2
 CREATE INDEX idx_data_92 ON autoclave2 (Data_92);
 CREATE INDEX idx_timestamp ON autoclave2 (Timestamp);
 CREATE INDEX idx_data_55_data_60 ON autoclave2 (Data_55, Data_60);
-
--- Для таблицы autoclave3
-CREATE INDEX idx_data_92_on_autoclave3 ON autoclave3 (Data_92);
-CREATE INDEX idx_timestamp_on_autoclave3 ON autoclave3 (Timestamp);
-CREATE INDEX idx_data_55_data_60_on_autoclave3 ON autoclave3 (Data_55, Data_60);
-
--- Для таблицы autoclave4
-CREATE INDEX idx_data_92_on_autoclave4 ON autoclave4 (Data_92);
-CREATE INDEX idx_timestamp_on_autoclave4 ON autoclave4 (Timestamp);
-CREATE INDEX idx_data_55_data_60_on_autoclave4 ON autoclave4 (Data_55, Data_60);
